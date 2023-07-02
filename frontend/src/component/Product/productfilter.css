@@ -1,0 +1,135 @@
+.productsHeading{
+    position: relative;
+    left:60rem;
+    width:10rem;
+    padding:5px 5px;
+    border-bottom:1px solid lightgrey
+}
+
+.productsFiltered{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;;
+    grid-template-rows:1fr 1fr 1fr;
+    width:80rem;
+    position: relative;
+ left:27rem;
+ overflow: auto;
+ height:40rem;
+}
+
+.paginationBox{
+     display:flex;
+     justify-content: center;
+     margin: 6vmax;
+
+
+}
+
+.pagination{
+    display:flex;
+    justify-content:center;
+    padding:0;
+
+}
+
+.page-item{
+    background-color: white;
+    list-style:none;
+    border: 1px solid black;
+    padding:1vmax 1.5vmax;
+    transition:all 0.3s;
+    cursor:pointer;
+
+
+}
+
+.page-item:first-child{
+    border-radius:5px 0 0 5px;
+}
+
+.page-item:last-child{
+    border-radius:0 5px 5px 0
+}
+
+.page-link{
+    text-decoration:none;
+    font:300 0.7vmax "Roboto";
+    color:rgb(80, 80,80);
+    transition:LL 0.3s
+}
+
+.page-item:hover{
+    background-color:rgb(219, 210, 210)
+}
+
+.page-item:hover .page-link{
+    color:rgb(22, 18, 18);
+
+}
+
+.pageItemActive{
+    background-color: rgb(255, 46, 9);
+}
+
+.pageLinkActive{
+    color:white;
+    
+}
+
+
+/* ////////////////////////////////////////////////////////// */
+
+.filterBox{
+    width:15%;
+    position: relative;
+    left:3rem;
+    border:2px solid lightgrey;
+    padding:3rem;
+    top:-30rem;
+}
+
+.blue-slider {
+    height: 8px;
+  }
+  
+  .blue-slider-thumb {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: #2196f3;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.2),
+      0 4px 4px rgba(0, 0, 0, 0.2), 0 8px 8px rgba(0, 0, 0, 0.2),
+      0 16px 16px rgba(0, 0, 0, 0.2);
+      outline:none;
+      position: relative;
+      top:-0.2rem;
+  }
+  
+  .blue-slider-track {
+    height: 8px;
+    background-color:#2196f3;
+  }
+  
+  /* Accessories */
+
+  .Accessories{
+    position: relative;
+    left:3rem;
+    top:-25rem;
+    padding:3rem;
+    border:1px solid lightgrey;
+    width: 15%;
+  }
+ 
+  .category-link{
+    position: relative;
+    top:1rem;
+    text-decoration:none;
+    list-style: none;
+  }

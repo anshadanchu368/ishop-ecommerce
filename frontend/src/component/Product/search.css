@@ -1,0 +1,29 @@
+.searchBox{
+    position: relative;
+    left:35rem;
+    top:5rem;
+    width:40rem;
+    margin:0rem;
+}
+
+
+
+
+
+
+
+.searchBox>input[type="text"] {
+    border:none;
+    outline:none;
+    height:4rem;
+    width:30rem;
+    
+}
+
+.searchBox>input[type="submit"]{
+    height:4rem;
+    border:none;
+    background-color: tomato;
+    color:white;
+    width:4rem;
+}

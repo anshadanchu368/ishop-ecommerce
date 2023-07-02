@@ -1,0 +1,59 @@
+.featured-p{
+     padding:3px 3px;
+     border-bottom:2px solid lightgrey;
+     border-radius:5px;
+     width:28rem;
+     position:relative;
+     left:25rem;
+     text-align:center
+}
+
+.productCard{
+    width:10vmax;
+    display:flex;
+    flex-direction:column;
+    text-decoration:none;
+    color:rgb(48,48,48);
+    margin:2vmax;
+    transition:all 0.5s;
+    padding-bottom:0.5vmax;
+    margin:40px;
+    justify-items: space-between;
+}
+
+.productCard >img{
+    width:14vmax;
+}
+
+.productCard > div{
+    margin: 0.5vmax;
+    display:flex;
+    justify-content:flex-start
+}
+.productCard > div > span{
+    margin: 0.5vmax;
+    font:300 0.7vmax "Roboto";
+}
+.productCard > p{
+    font-family:"Roboto";
+    font-size:1.2vmax;
+    margin:1vmax 0.5vmax;
+    margin-bottom:0;
+}
+
+.productCard > span{
+    margin:0.5vmax 0.5vmax;
+    color:tomato;
+    font-family:"Franklin Gothic Medium","Arial Narrow",Arial,sans-serif;
+    font-size:1vmax;
+}
+
+.container{
+    display:flex;
+    margin: 2vmax auto;
+    width:120vw;
+    margin:0;
+    flex-wrap:wrap;
+    margin:2vmax auto;
+    justify-content:flex-start;
+}
